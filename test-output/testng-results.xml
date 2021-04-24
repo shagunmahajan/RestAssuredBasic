@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-24T14:26:37 IST" name="Suite" finished-at="2021-04-24T14:26:48 IST" duration-ms="10689">
+    <groups>
+    </groups>
+    <test started-at="2021-04-24T14:26:37 IST" name="Test" finished-at="2021-04-24T14:26:48 IST" duration-ms="10689">
+      <class name="serviceRequest.putTest">
+        <test-method signature="getResponseUpdateUserPutTest()[pri:0, instance:serviceRequest.putTest@140c9f39]" started-at="2021-04-24T14:26:45 IST" name="getResponseUpdateUserPutTest" finished-at="2021-04-24T14:26:46 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseUpdateUserPutTest -->
+        <test-method signature="verifyUpdateUserPutTest()[pri:0, instance:serviceRequest.putTest@140c9f39]" started-at="2021-04-24T14:26:46 IST" name="verifyUpdateUserPutTest" finished-at="2021-04-24T14:26:46 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateUserPutTest -->
+      </class> <!-- serviceRequest.putTest -->
+      <class name="serviceRequest.getTest">
+        <test-method signature="getResponseDataSingleUser()[pri:0, instance:serviceRequest.getTest@19d481b]" started-at="2021-04-24T14:26:37 IST" name="getResponseDataSingleUser" finished-at="2021-04-24T14:26:41 IST" duration-ms="3367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseDataSingleUser -->
+        <test-method signature="getResponseDataTest1()[pri:0, instance:serviceRequest.getTest@19d481b]" started-at="2021-04-24T14:26:41 IST" name="getResponseDataTest1" finished-at="2021-04-24T14:26:41 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseDataTest1 -->
+        <test-method signature="getResponseDataTest2()[pri:0, instance:serviceRequest.getTest@19d481b]" started-at="2021-04-24T14:26:41 IST" name="getResponseDataTest2" finished-at="2021-04-24T14:26:42 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseDataTest2 -->
+        <test-method signature="verifyResponseStatus()[pri:0, instance:serviceRequest.getTest@19d481b]" started-at="2021-04-24T14:26:42 IST" name="verifyResponseStatus" finished-at="2021-04-24T14:26:42 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseStatus -->
+        <test-method signature="verifyResponseStatusSingleUser()[pri:0, instance:serviceRequest.getTest@19d481b]" started-at="2021-04-24T14:26:42 IST" name="verifyResponseStatusSingleUser" finished-at="2021-04-24T14:26:42 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseStatusSingleUser -->
+      </class> <!-- serviceRequest.getTest -->
+      <class name="serviceRequest.patchTest">
+        <test-method signature="getResponseUpdateUserPatchTest()[pri:0, instance:serviceRequest.patchTest@4d910fd6]" started-at="2021-04-24T14:26:46 IST" name="getResponseUpdateUserPatchTest" finished-at="2021-04-24T14:26:47 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseUpdateUserPatchTest -->
+        <test-method signature="verifyUpdateUserPatchTest()[pri:0, instance:serviceRequest.patchTest@4d910fd6]" started-at="2021-04-24T14:26:47 IST" name="verifyUpdateUserPatchTest" finished-at="2021-04-24T14:26:47 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateUserPatchTest -->
+      </class> <!-- serviceRequest.patchTest -->
+      <class name="serviceRequest.deleteTest">
+        <test-method signature="deleteUserTest()[pri:0, instance:serviceRequest.deleteTest@26275bef]" started-at="2021-04-24T14:26:47 IST" name="deleteUserTest" finished-at="2021-04-24T14:26:48 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- serviceRequest.deleteTest -->
+      <class name="serviceRequest.postTest">
+        <test-method signature="getResponseLoginSsuccessFulPostTest()[pri:0, instance:serviceRequest.postTest@1f97cf0d]" started-at="2021-04-24T14:26:42 IST" name="getResponseLoginSsuccessFulPostTest" finished-at="2021-04-24T14:26:43 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseLoginSsuccessFulPostTest -->
+        <test-method signature="getResponseLoginUnsuccessFulPostTest()[pri:0, instance:serviceRequest.postTest@1f97cf0d]" started-at="2021-04-24T14:26:43 IST" name="getResponseLoginUnsuccessFulPostTest" finished-at="2021-04-24T14:26:44 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseLoginUnsuccessFulPostTest -->
+        <test-method signature="verifyLoginSuccessFulPostTest()[pri:0, instance:serviceRequest.postTest@1f97cf0d]" started-at="2021-04-24T14:26:44 IST" name="verifyLoginSuccessFulPostTest" finished-at="2021-04-24T14:26:45 IST" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessFulPostTest -->
+        <test-method signature="verifyLoginUnsuccessFulPostTest()[pri:0, instance:serviceRequest.postTest@1f97cf0d]" started-at="2021-04-24T14:26:45 IST" name="verifyLoginUnsuccessFulPostTest" finished-at="2021-04-24T14:26:45 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUnsuccessFulPostTest -->
+      </class> <!-- serviceRequest.postTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
